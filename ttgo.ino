@@ -6,10 +6,10 @@
 #define OLED_RESET 4
 Adafruit_SSD1306 display(OLED_RESET);
 
-const char* ssid     = "dekip_network";      // SSID lokalne mreze
-const char* password = "0611975itstreet";   // lozinka
-String APIKEY = "04ca3eafe646af3f057ec37e63026bc0"; // API kljuc
-String CityID = "792892"; //ID mesta za koji nam trebaju ocitavanja
+const char* ssid     = "***SSID***";      // SSID lokalne mreze
+const char* password = "***PASS***";   // lozinka
+String APIKEY = "***API***"; // API kljuc
+String CityID = "***CityID***"; //ID mesta za koji nam trebaju ocitavanja
 
 WiFiClient client;
 char servername[]="api.openweathermap.org";  //udaljeni server na koji se povezujemo
